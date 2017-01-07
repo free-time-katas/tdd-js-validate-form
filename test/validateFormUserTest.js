@@ -1,6 +1,6 @@
 import chai from "chai";
 import ValidateFormDTO from "../src/ValidateFormDTO";
-import ValidateFormUserSignUp from "../src/ValidateFormUserSignUp";
+import ValidateFormUserSignUp from "./ValidateFormUser";
 
 describe('Validate form', () => {
     it('name should\'t be empty', () => {
